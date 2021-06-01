@@ -1,6 +1,4 @@
 #loading packages
-import pickle
-from re import U
 import pip
 
 def import_or_install(package):
@@ -229,11 +227,6 @@ for i in idlist:
         scrape_vid_comments(i)
     except:
         continue
-
-
-
-#video_id = str(input("what is the video id?"))
-
 
 
 
